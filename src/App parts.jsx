@@ -839,7 +839,7 @@ function SettingsPanel({ settings, onSave, saved }) {
   );
 }
 
-const ADMIN_PASSWORD = "krazy123";
+const ADMIN_PASSWORD = "krazy1234";
 
 
 export { PLATFORMS, detectPlatform, CAT_THEMES, CATEGORIES, ADMIN_PASSWORD, defaultProducts, FloatingOrbs, DealTicker, Stars, BADGE_STYLES, Badge, ShopBtn, ProductCard, CatPill, Field, ImageUploadField, ProductModal, StatsBar, SettingsPanel };

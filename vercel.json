@@ -1,16 +1,7 @@
 {
   "rewrites": [
-    {
-      "source": "/share",
-      "destination": "/api/product"
-    },
-    {
-      "source": "/product/:path*",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/((?!api/).*)",
-      "destination": "/index.html"
-    }
+    { "source": "/share", "destination": "/api/product" },
+    { "source": "/product/(.*)", "destination": "/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
